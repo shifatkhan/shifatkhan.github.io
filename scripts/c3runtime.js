@@ -3401,6 +3401,8 @@ this._stage=0;this._stageTimeLeft+=this._onTime}this._runtime.UpdateRender()}}Ge
 		() => "desktop",
 		() => "Touch Controls",
 		() => "Display tutorial MOBILE",
+		() => "TouchFunctions",
+		() => "Touch UI",
 		() => "Display tutorial DESKTOP",
 		() => "Player movement DESKTOP",
 		() => "Calculate time",
@@ -3410,7 +3412,6 @@ this._stage=0;this._stageTimeLeft+=this._onTime}this._runtime.UpdateRender()}}Ge
 		() => 0.3,
 		() => 3600,
 		() => "mobile",
-		() => "TouchFunctions",
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			const f1 = p._GetNode(1).GetBoundMethod();
@@ -3419,7 +3420,6 @@ this._stage=0;this._stageTimeLeft+=this._onTime}this._runtime.UpdateRender()}}Ge
 			const v4 = p._GetNode(4).GetVar();
 			return () => f0("Touch Controls", f1(v2.GetValue()), f3(v4.GetValue()));
 		},
-		() => "Touch UI",
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0();
