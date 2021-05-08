@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!--Created by Shifat Khan, Johnny Lin-->
+<html>
+	<head>
+		<link rel="stylesheet" href="style-vid.css" type="text/css" />
+		<link rel="shortcut icon" href="./images/icon-tab.ico" />
+		<title>Computer Science Programs</title>
+		<style>
+			#more{
+				background-color:#005f5f;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div id="header">
+			<ul>
+				<li id="home"><a href="index.html"><img src="./images/icon2.png" alt="Computer Icon" width="40px"></a></li>
+				<li id="concordia"><a href="concordia.html">Concordia</a>
+					<ul>
+						<li><a href="concordia.html">Info</a></li>
+						<li><a href="concordia-vid.html">Videos</a></li>
+					</ul>
+				</li>
+				<li id="mcgill"><a href="mcgill.html">McGill</a>
+					<ul>
+						<li><a href="mcgill.html">Info</a></li>
+						<li><a href="mcgill-vid.html">Videos</a></li>
+					</ul>
+				</li>
+				<li id="uoft"><a href="uoft.html">U of T</a>
+					<ul>
+						<li><a href="uoft.html">Info</a></li>
+						<li><a href="uoft-vid.html">Videos</a></li>
+					</ul>
+				</li>
+				<li id="ryerson"><a href="ryerson.html">Ryerson</a>
+					<ul>
+						<li><a href="ryerson.html">Info</a></li>
+						<li><a href="ryerson-vid.html">Videos</a></li>
+					</ul>
+				</li>
+				<li id="queen"><a href="queen.html">Queen's</a>
+					<ul>
+						<li><a href="queen.html">Info</a></li>
+						<li><a href="queen-vid.html">Videos</a></li>
+					</ul>
+				</li>
+				<li id="more"><a href="#">More</a></li>
+				<li id="reference"><a href="reference.html">Reference</a></li>
+			</ul>
+		</div>
+		
+		<div id="main">
+			<form action="process.html">
+				<table>
+				<tr>
+					<td>Environment</td>
+					<td>
+						<form action="">
+								<label><input type="radio" name="env" value="calm" checked="checked">Calm</label><br>
+								<label><input type="radio" name="env" value="energetic">Energetic</label><br/>
+								<label><input type="radio" name="env" value="any">Any</label>
+						</form>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>What do you like for lunch?</td>
+					<td>
+						<form action="">
+								<label><input type="radio" name="food" value="home" checked="checked">Homemade food</label><br>
+								<label><input type="radio" name="food" value="resto">Restaurants</label><br/>
+								<label><input type="radio" name="food" value="cafe">Cafeteria</label><br/>
+								<label><input type="radio" name="food" value="any">Any</label>
+						</form>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>You want friends/teammates that are</td>
+					<td>
+						<form action="">
+								<label><input type="checkbox" name="friend" value="helpful" checked="checked">Helpful</label><br>
+								<label><input type="checkbox" name="friend" value="friendly">Friendly</label><br/>
+								<label><input type="checkbox" name="friend" value="distant">Distant</label><br/>
+								<label><input type="checkbox" name="friend" value="sociable">Sociable</label><br/>
+								<label><input type="checkbox" name="friend" value="fun">Fun</label><br/>
+						</form>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>You want a school with the following</td>
+					<td>
+						<form action="">
+								<label><input type="checkbox" name="school" value="reputation" checked="checked">Has good academic reputation</label><br>
+								<label><input type="checkbox" name="school" value="clean">Sturdy and clean</label><br/>
+								<label><input type="checkbox" name="school" value="big">Big</label><br/>
+								<label><input type="checkbox" name="school" value="small">Small</label><br/>
+								<label><input type="checkbox" name="school" value="cheap">Cheap</label><br/>
+						</form>
+					</td>
+				</tr>
+					
+				<tr>
+					<td>Do you live in Canada?</td>
+					<td>
+						<form action="">
+								<label><input type="radio" name="live" value="yes" checked="checked">Yes</label><br>
+								<label><input type="radio" name="live" value="no">No</label>
+						</form>
+					</td>
+				</tr>
+				</table>
+			</form>
+			<div id="formButton">
+				<p><input type="submit" value="submit" name="b1"> &nbsp <button type="reset" value="reset">reset</button> </p>
+			</div>
+			
+			<h4>You will be redirected to the University that is more suitable for you</h4>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<p>Notice: survey not accurate</p>
+			
+		</div>
+		
+		<div id="footer">
+			Copyright &copy Shifat Khan, Johnny Lin - Dawson College
+		</div>
+	</body>
+</html>

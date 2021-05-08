@@ -1,0 +1,133 @@
+<!--
+*	@Author: Shifat Khan
+*	@Version: 1.1
+-->
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="myCss.css" />
+		<script type="text/javascript" src="script.js"></script>
+		<title>"Memory Game"</title>
+	</head>
+	
+<body>
+
+	<div id="status">
+
+	</div>
+
+	<div id = "wrapper">
+		<h1 id="header">
+			Memory Game
+		</h1>
+	</div>
+
+	<div id = "gameBoard">
+		<div id = "botLayer" class="layer">
+			<img id="complete"/>
+		</div>
+
+		<div id="howTo">
+			<button id="howToBtn">How to play</button>
+		</div>
+
+		<!-- The Modal -->
+		<div id="modalBox" class="modal">
+
+ 	 <!-- Modal content -->
+ 	 <div class="modal-content">
+ 	   <div class="modal-header">
+ 	     <span class="close">×</span>
+  	    <h2>How to play</h2>
+  	  </div>
+  	  <div class="modal-body">
+  	    <p>Your objective is to match all 8 pairs of tiles! Each tile contains an image which need to be paired up with another similar image!</p>
+  	    <p>When you complete it, you can play again by clicking the "Start Game" button. If you can do it, simply click the end game button.</p>
+  	  </div>
+  	  <div class="modal-footer">
+  	    <h3>Have fun!</h3>
+  	  </div>
+  	</div>
+
+	</div>
+
+		<div id = "midLayer" class="layer">
+		<section id = "t1" class = "tiles"></section>
+		<section id = "t2" class = "tiles"></section>
+		<section id = "t3" class = "tiles"></section>
+		<section id = "t4" class = "tiles"></section>
+		<section id = "t5" class = "tiles"></section>
+		<section id = "t6" class = "tiles"></section>
+		<section id = "t7" class = "tiles"></section>
+		<section id = "t8" class = "tiles"></section>
+		<section id = "t9" class = "tiles"></section>
+		<section id = "t10" class = "tiles"></section>
+		<section id = "t11" class = "tiles"></section>
+		<section id = "t12" class = "tiles"></section>
+		<section id = "t13" class = "tiles"></section>
+		<section id = "t14" class = "tiles"></section>
+		<section id = "t15" class = "tiles"></section>
+		<section id = "t16" class = "tiles"></section>
+		</div>
+
+		<div id = "topLayer" class="layer">
+		<section id = "c1" class = "tiles"> <img id="a" class="cover" /> </section>
+		<section id = "c2" class = "tiles"> <img id="b" class="cover" /> </section>
+		<section id = "c3" class = "tiles"> <img id="c" class="cover" /> </section>
+		<section id = "c4" class = "tiles"> <img id="d" class="cover" /> </section>
+		<section id = "c5" class = "tiles"> <img id="e" class="cover" /> </section>
+		<section id = "c6" class = "tiles"> <img id="f" class="cover" /> </section>
+		<section id = "c7" class = "tiles"> <img id="g" class="cover" /> </section>
+		<section id = "c8" class = "tiles"> <img id="h" class="cover" /> </section>
+		<section id = "c9" class = "tiles"> <img id="i" class="cover" /> </section>
+		<section id = "c10" class = "tiles"> <img id="j" class="cover" /> </section>
+		<section id = "c11" class = "tiles"> <img id="k" class="cover" /> </section>
+		<section id = "c12" class = "tiles"> <img id="l" class="cover" /> </section>
+		<section id = "c13" class = "tiles"> <img id="m" class="cover" /> </section>
+		<section id = "c14" class = "tiles"> <img id="n" class="cover" /> </section>
+		<section id = "c15" class = "tiles"> <img id="o" class="cover" /> </section>
+		<section id = "c16" class = "tiles"> <img id="p" class="cover" /> </section>
+		</div>
+
+		<div id="buttonWrapper">
+			<button id="startBtn">Start</button>
+			<button id="endBtn">End</button>
+		</div>
+
+	</div>
+	
+	<div id="footer">
+		<p id="about">Shifat Khan - Dawson College 2016 ©</p>
+	</div>
+
+	<script>
+// Get the modal
+var modal = document.getElementById('modalBox');
+
+// Get the button that opens the modal
+var btn = document.getElementById("howToBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>

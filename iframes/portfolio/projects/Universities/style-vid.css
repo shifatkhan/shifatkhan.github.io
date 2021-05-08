@@ -1,0 +1,140 @@
+#video{
+	background-color:#005f5f;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("images/background.jpg")
+}
+
+#main {
+	font-family: 'Trebuchet MS';
+	margin:0;
+	height: 1000px;
+    padding:10px;
+	text-align: center;
+}
+
+#main video {
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+}
+
+table{
+	margin-top:100px;
+	border: 5px solid #005f5f ;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+	width: 500px;
+}
+
+th, td{
+	border: 1px solid #005f5f ;
+}
+
+ol{
+	text-align: left;
+}
+
+#buttons{
+	margin-right: 1%;
+	text-align: center;
+}
+
+#formButton{
+	text-align:center;
+}
+
+#footer {
+	font-family: 'Trebuchet MS';
+    background-color:#444;
+    color:white;
+    clear:both;
+    text-align:center;
+	padding:5px;
+	/*position: fixed;
+	bottom:0;
+	left: 0;
+	right: 0;
+	width: 100%;*/
+}
+
+/*Below is for the header navigation only*/
+#header ul {
+  list-style: none;
+  background-color: #444;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#header li {
+  font-family: 'Rockwell', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  text-align: left;
+}
+
+#header a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding-left: 15px;
+  border-bottom: 1px solid #888;
+  transition: .3s background-color;
+}
+
+#header a:hover {
+  background-color: #005f5f;
+}
+
+#header a.active {
+  background-color: #aaa;
+  color: #444;
+  cursor: default;
+}
+
+#header li li {
+  font-size: .8em;
+}
+
+@media screen and (min-width: 650px) {
+  #header li {
+    width: 130px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    display: inline-block;
+    margin-right: -4px;
+  }
+
+  #header a {
+    border-bottom: none;
+  }
+
+  #header > ul > li {
+    text-align: center;
+  }
+
+  #header > ul > li > a {
+    padding-left: 0;
+  }
+
+  #header li ul {
+    position: absolute;
+    display: none;
+    width: inherit;
+  }
+
+  #header li:hover ul {
+    display: block;
+  }
+
+  #header li ul li {
+    display: block;
+  }
+}
