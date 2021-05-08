@@ -1,11 +1,11 @@
 {
-	"name": "Shifat game portfolio",
-	"short_name": "Shifat game portfolio",
+	"name": "Shifat Khan - Portfolio",
+	"short_name": "Shifat Khan - Portfolio",
 	"description": "",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "landscape",
-	"background_color": "#ffffff",
+	"background_color": "#000000",
 	"icons": [
 		{
 			"src": "icons/icon-16.png",
